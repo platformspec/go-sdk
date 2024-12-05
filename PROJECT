@@ -7,4 +7,13 @@ layout:
 - go.kubebuilder.io/v4
 projectName: go-sdk
 repo: github.com/platformspec/go-sdk
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Platform
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
 version: "3"
