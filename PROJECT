@@ -48,4 +48,36 @@ resources:
   kind: Network
   path: github.com/platformspec/go-sdk/api/v1alpha1
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Image
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Cluster
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Server
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: SoftwareGroup
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
 version: "3"

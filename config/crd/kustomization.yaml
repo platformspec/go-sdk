@@ -7,6 +7,10 @@ resources:
 - bases/core.platformspec.io_providers.yaml
 - bases/core.platformspec.io_environments.yaml
 - bases/core.platformspec.io_networks.yaml
+- bases/core.platformspec.io_images.yaml
+- bases/core.platformspec.io_clusters.yaml
+- bases/core.platformspec.io_servers.yaml
+- bases/core.platformspec.io_softwaregroups.yaml
 # +kubebuilder:scaffold:crdkustomizeresource
 
 patches:
