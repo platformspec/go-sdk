@@ -75,7 +75,7 @@ type PlatformSpec struct {
 	// The name or team responsible for creating or maintaining this platform.
 	Author string `json:"author,omitempty"`
 
-	// A version of the platform, internal to the team definining and managing the platform.
+	// A version of the platform, internal to the team defining and managing the platform.
 	Version string `json:"version"`
 
 	// An email address for contacting the platform's administrators, maintainers or support team.
