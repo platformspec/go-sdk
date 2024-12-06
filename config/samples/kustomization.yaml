@@ -1,0 +1,12 @@
+## Append samples of your project ##
+resources:
+- core_v1alpha1_platform.yaml
+- core_v1alpha1_credential.yaml
+- core_v1alpha1_provider.yaml
+- core_v1alpha1_environment.yaml
+- core_v1alpha1_network.yaml
+- core_v1alpha1_image.yaml
+- core_v1alpha1_cluster.yaml
+- core_v1alpha1_server.yaml
+- core_v1alpha1_softwaregroup.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
