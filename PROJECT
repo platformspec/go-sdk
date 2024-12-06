@@ -16,4 +16,36 @@ resources:
   kind: Platform
   path: github.com/platformspec/go-sdk/api/v1alpha1
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Credential
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Provider
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Environment
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: platformspec.io
+  group: core
+  kind: Network
+  path: github.com/platformspec/go-sdk/api/v1alpha1
+  version: v1alpha1
 version: "3"

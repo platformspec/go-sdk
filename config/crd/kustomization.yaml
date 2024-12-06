@@ -3,6 +3,10 @@
 # It should be run by config/default
 resources:
 - bases/core.platformspec.io_platforms.yaml
+- bases/core.platformspec.io_credentials.yaml
+- bases/core.platformspec.io_providers.yaml
+- bases/core.platformspec.io_environments.yaml
+- bases/core.platformspec.io_networks.yaml
 # +kubebuilder:scaffold:crdkustomizeresource
 
 patches:
