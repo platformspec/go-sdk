@@ -502,7 +502,7 @@ spec:
                     type: array
                 type: object
               version:
-                description: A version of the platform, internal to the team definining
+                description: A version of the platform, internal to the team defining
                   and managing the platform.
                 type: string
             required:
